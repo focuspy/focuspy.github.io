@@ -20,5 +20,12 @@
         <p><a href="https://drive.google.com/open?id=1P8QZpszURtGA469QNVDojeKDVFbFOGxG">Tor</a></p>
         <p><a href="https://drive.google.com/open?id=1ArJUrhHITfBD_bJFoGUKkHu7Uz5-gEyR">Not</a></p>
         <script src="/script.js" defer></script>
+        <script>
+            if('serviceWorker' in navigator) {
+                navigator.serviceWorker
+                    .register('/sw.js')
+                    .then(function() { console.log("Service Worker Registered"); });
+        }
+        </script>
     </body>
 </html>
