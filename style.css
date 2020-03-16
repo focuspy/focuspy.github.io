@@ -9,7 +9,7 @@ a, a:visited {
   text-decoration: none;
 }
 
-a:link {
+a, a:link {
   text-decoration: none;
 }
 
