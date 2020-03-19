@@ -37,3 +37,7 @@ h1 {
   font-size: 1em;
   padding: 0.75em;
 }
+
+#contbanner {
+  object-fit: cover;
+ }
