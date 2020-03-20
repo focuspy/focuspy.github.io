@@ -39,7 +39,7 @@ h1 {
 }
 
 div.fill-screen {
-  position: fixed;
+  position: top;
   left: 0;
   right: 0;
   top: 0;
